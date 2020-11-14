@@ -6,7 +6,7 @@ const secret = process.env.SECRET;
 const config = {
     development: {
         port: port,
-        dbURL: 'mongodb://localhost:27017/ryan-db',
+        dbURL: process.env.MONGODB_URI,
         authCookieName: 'x-auth-token',
         loggedIn: 'false',
         secret: secret,
