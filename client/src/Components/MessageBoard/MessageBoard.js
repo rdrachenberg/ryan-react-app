@@ -11,10 +11,13 @@ const Messages = (props) => {
             const result = await getMessages();
             // console.log(result)
             setMessages(result);
-            setWorking(false);
+            
         };
 
-        fetchData();
+        fetchData().then(()=>
+            setWorking(false)
+        );
+        
     }, []);
 
     console.log(messages);
