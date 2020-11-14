@@ -2,8 +2,8 @@
   "name": "ryan-react-app",
   "version": "2.1.0",
   "private": true,
-  "engines": {
-    "node": "14.10x"
+  "engines":{
+    "node": "14.10.0x"
   },
   "dependencies": {
     "@testing-library/jest-dom": "^5.11.4",
