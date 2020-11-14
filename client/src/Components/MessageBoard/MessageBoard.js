@@ -54,7 +54,7 @@ const Messages = (props) => {
                             </tr>
                         </thead>
                         <tbody>
-                            {messages.map((message,i) => 
+                            {messages.map((message) => 
                                 <tr key={message._id}>
                                     <td>{message.firstname}</td>
                                     <td>{message.lastname}</td>
