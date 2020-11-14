@@ -12,7 +12,7 @@ const config = {
         secret: secret,
     },
     production: {
-        
+        port: port,
         dbURL: process.env.MONGODB_URI,
         authCookieName: 'x-auth-token',
         loggedIn: 'false',
