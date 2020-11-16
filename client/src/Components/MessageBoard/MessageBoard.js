@@ -9,16 +9,12 @@ const Messages = (props) => {
     useEffect(() => {
         const fetchData = async () => {
             const result = await getMessages();
-            // console.log(result)
+            console.log(result)
             setMessages(result);
             setWorking(false);
             
         };
-
-        fetchData().then(()=>
-            setWorking(false)
-        );
-        
+        fetchData();
     }, []);
 
     console.log(messages);
