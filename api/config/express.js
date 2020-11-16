@@ -15,8 +15,8 @@ module.exports = (app) => {
     app.disable('x-powered-by');
 
     app.use(function(req, res, next, err) {
-        // Website to allow to connect
-        res.setHeader('Access-Control-Allow-Origin', 'https://ryan-react-app.herokuapp.com' || 'http://localhost:3000');
+        // Website to allow to connect  || 'http://localhost:3000'
+        res.setHeader('Access-Control-Allow-Origin', 'https://ryan-react-app.herokuapp.com');
         // Request methods to allow
         res.setHeader('Access-Control-Allow-Methods', 'GET, POST, OPTIONS, PUT, PATCH, DELETE');
         // Request headers to allow
