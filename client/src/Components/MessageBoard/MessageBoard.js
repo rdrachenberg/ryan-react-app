@@ -13,7 +13,7 @@ const Messages = (props) => {
             setMessages(result);
             setWorking(false);
             
-        };
+        }
         fetchData();
     }, []);
 
