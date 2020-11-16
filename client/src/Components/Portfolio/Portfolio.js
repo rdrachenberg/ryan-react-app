@@ -12,7 +12,7 @@ const Portfolio = () => {
         return (
             <ul>
                 <div>
-                    <div className="card" >
+                    <div className="card" id={projects.still}>
                         <img src={projects.still} className="card-img-top" alt="project" onMouseOver={e => e.currentTarget.src=projects.hover} />
                         <div className="card-body">
                             <h5 className="card-title">{projects.title}</h5>
