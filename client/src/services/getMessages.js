@@ -7,10 +7,10 @@ export const getMessages = () => {
         .then(res => {
             console.log(res.status)
             console.log(res);
-            if(res.headers.get('content-type').match(/aaplication\/json/)){
+            if(res.headers.get('content-type').match(/application\/json/)){
                 return res.json();
             }
-
+            return res
         }).then((response) => {
             console.log(response);
             response = response.reverse();
