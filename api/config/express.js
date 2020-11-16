@@ -7,16 +7,16 @@ const authCookieName = require('./config').authCookieName;
 
 module.exports = (app) => {
     const corsOptions = {
-        origin: "https://ryan-react-app.herokuapp.com/",
+        origin: "https://ryan-react-app.herokuapp.com",
         optionsSuccessStatus: 200
     };
 
     app.use(cors(corsOptions));
     app.disable('x-powered-by');
 
-    app.use(function(req, res, next) {
+    app.use(function(req, res, next, err) {
         // Website to allow to connect
-        res.setHeader('Access-Control-Allow-Origin', 'https://ryan-react-app.herokuapp.com/');
+        res.setHeader('Access-Control-Allow-Origin', 'http://localhost:3000' ||'https://ryan-react-app.herokuapp.com/');
         // Request methods to allow
         res.setHeader('Access-Control-Allow-Methods', 'GET, POST, OPTIONS, PUT, PATCH, DELETE');
         // Request headers to allow
@@ -27,6 +27,8 @@ module.exports = (app) => {
         // Pass to next layer of middleware
         next();
     });
+    console.log(authCookieName); // will use later for successful login and name cookie. 
+
     app.use(bodyParser.urlencoded({
         extended: true
     }));
