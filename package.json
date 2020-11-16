@@ -6,7 +6,8 @@
     "node": "14.10.x",
     "npm": "6.14.8"
   },
-  "main": "api/server.js",
+  "main": "/api/server.js",
+  "homepage": "https://ryan-react-app.herokuapp.com",
   "dependencies": {
     "@testing-library/jest-dom": "^5.11.4",
     "@testing-library/react": "^11.1.0",
