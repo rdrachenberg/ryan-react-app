@@ -7,7 +7,9 @@ export const getMessages = () => {
         .then(res => {
             console.log(res.status)
             console.log(res);
-            res.json();
+            if(res.headers.get('content-type').match(/aaplication\/json/)){
+                return res.json();
+            }
 
         }).then((response) => {
             console.log(response);
