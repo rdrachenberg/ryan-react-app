@@ -7,7 +7,7 @@ export const getMessages = () => {
         .then(res => {
             console.log(res.status)
             // console.log(res);
-            return res.json();
+            res.json();
 
         }).then((response) => {
             console.log(response);
