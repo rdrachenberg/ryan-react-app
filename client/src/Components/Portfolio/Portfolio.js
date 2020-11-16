@@ -1,11 +1,14 @@
-import React, {useState}from "react";
+import React, {useState, useEffect}from "react";
 import cardSeed from '../../seed';
 
 const Portfolio = () => {
 
     const [myStill, setMyStill] = useState(cardSeed);
+    useEffect(() => {
+        setMyStill(cardSeed);
+        return myStill
+    }, [myStill])
     
-
     
     const cardPics = myStill.map(projects => {
         // console.log(projects);

@@ -6,11 +6,9 @@ export const getMessages = () => {
     return fetch(apiRoute)
         .then(res => {
             console.log(res.status)
-            console.log(res);
-            if(res.headers.get('content-type').match(/application\/json/)){
-                return res.json();
-            }
-            return res
+            // console.log(res);
+            return res.json();
+
         }).then((response) => {
             console.log(response);
             response = response.reverse();

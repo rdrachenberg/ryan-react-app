@@ -11,10 +11,13 @@ const Messages = (props) => {
             const result = await getMessages();
             console.log(result)
             setMessages(result);
-            setWorking(false);
             
+            if(result !== undefined){
+                setWorking(false);
+                return result
+            }
         }
-        fetchData();
+        fetchData()
     }, []);
 
     console.log(messages);
@@ -22,7 +25,7 @@ const Messages = (props) => {
     return (
         <div className='table-container'>
         <h1>Message Board</h1>
-        {working && messages === undefined ? (
+        {working? (
             <div className="col-lg-12 col-md-12 ">
                 <div className="table-responsive">
                     <table className="table table-striped ">
