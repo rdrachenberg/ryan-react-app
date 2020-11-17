@@ -6,7 +6,7 @@ export const getMessages = () => {
     return fetch(apiRoute)
         .then(res => {
             console.log(res.status)
-            // console.log(res);
+            console.log(res);
             return res.json();
 
         }).then((response) => {
