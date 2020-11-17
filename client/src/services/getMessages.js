@@ -12,7 +12,7 @@ export const getMessages = () => {
         }).then((response) => {
             console.log(response);
             response = response.reverse();
-            return response
+            return [response]
         })
         .catch(error => console.error(error))
 }

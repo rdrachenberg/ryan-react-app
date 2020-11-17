@@ -55,11 +55,11 @@ const Messages = (props) => {
                         </thead>
                         <tbody>
                             {messages.map((message) => 
-                                <tr key={message._id.trim()}>
-                                    <td>{message.firstname.trim()}</td>
-                                    <td>{message.lastname.trim()}</td>
-                                    <td>{message.email.trim()}</td>
-                                    <td>{message.message.trim()}</td>
+                                <tr key={message._id}>
+                                    <td>{message.firstname}</td>
+                                    <td>{message.lastname}</td>
+                                    <td>{message.email}</td>
+                                    <td>{message.message}</td>
                                 </tr>
                             )}
                         </tbody>
