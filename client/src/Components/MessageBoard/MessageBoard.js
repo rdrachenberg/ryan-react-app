@@ -22,7 +22,7 @@ const Messages = (props) => {
     return (
         <div className='table-container'>
         <h1>Message Board</h1>
-        {working? (
+        {working && messages === undefined? (
             <div className="col-lg-12 col-md-12 ">
                 <div className="table-responsive">
                     <table className="table table-striped ">
