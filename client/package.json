@@ -17,8 +17,7 @@
     "web-vitals": "^0.2.4"
   },
   "homepage": "https://ryan-react-app.herokuapp.com",
-  
-    "scripts": {
+  "scripts": {
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
