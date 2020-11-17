@@ -11,11 +11,8 @@ const Messages = (props) => {
             const result = await getMessages();
             console.log(result)
             setMessages(result);
+            setWorking(false);
             
-            if(result !== undefined){
-                setWorking(false);
-                return result
-            }
         }
         fetchData()
     }, []);

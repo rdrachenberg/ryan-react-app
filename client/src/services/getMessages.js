@@ -1,4 +1,4 @@
-const apiRoute = '/api/message';
+const apiRoute = 'api/message';
 
 export const getMessages = () => {
     console.log('getting messages');
