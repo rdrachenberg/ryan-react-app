@@ -3,18 +3,18 @@ import { withRouter } from 'react-router-dom';
 import {getMessages} from '../../services/getMessages'
 
 const Messages = (props) => {
-    const [working, setWorking] = useState(true)
-    const [messages, setMessages] = useState({data:[undefined]});
+    const [working, setWorking] = useState(true);
+    const [messages, setMessages] = useState({data:[]});
 
     useEffect(() => {
         const fetchData = async () => {
             const result = await getMessages();
-            console.log(result)
+            console.log(result);
             setMessages(result);
             setWorking(false);
             
         }
-        fetchData()
+        fetchData();
     }, []);
 
     console.log(messages);
@@ -22,7 +22,7 @@ const Messages = (props) => {
     return (
         <div className='table-container'>
         <h1>Message Board</h1>
-        {working && messages === undefined ? (
+        {working ? (
             <div className="col-lg-12 col-md-12 ">
                 <div className="table-responsive">
                     <table className="table table-striped ">
