@@ -11,7 +11,7 @@ const Messages = (props) => {
             const result = await getMessages();
             console.log(result)
             setMessages(result);
-            // setWorking(false);
+            setWorking(true);
             
         }
         fetchData().then(() => setWorking(false));
@@ -69,7 +69,6 @@ const Messages = (props) => {
         )}
         </div>
     );
-
 }
 
 export default withRouter(Messages)
