@@ -19,8 +19,8 @@ dbConnection().then(() => {
         app.use(express.static(path.join(__dirname, '/client/public')));
         app.use(express.static(path.join(__dirname, '/api')));
          // Handle React routing, return all requests to React app
-        app.get('/', function(req, res) {
-            res.sendFile(path.join(__dirname, 'client', 'build', 'index.html'));
+        app.get('/*', function(req, res) {
+            res.sendFile(path.join(__dirname, 'client/build/', 'index.html'));
         }).catch(console.error);
     }
     app.listen(config.port, function () {
