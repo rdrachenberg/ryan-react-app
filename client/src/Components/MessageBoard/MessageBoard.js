@@ -4,17 +4,17 @@ import {getMessages} from '../../services/getMessages'
 
 const Messages = (props) => {
     const [working, setWorking] = useState(true)
-    const [messages, setMessages] = useState({data:[]});
+    const [messages, setMessages] = useState({data:[undefined]});
 
     useEffect(() => {
         const fetchData = async () => {
             const result = await getMessages();
             console.log(result)
             setMessages(result);
-            setWorking(true);
+            setWorking(false);
             
         }
-        fetchData().then(() => setWorking(false));
+        fetchData()
     }, []);
 
     console.log(messages);
@@ -69,6 +69,7 @@ const Messages = (props) => {
         )}
         </div>
     );
+
 }
 
 export default withRouter(Messages)
