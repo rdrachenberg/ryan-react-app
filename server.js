@@ -5,6 +5,7 @@ const express = require('express');
 const config = require('./config/config');
 const dbConnection = require('./config/database');
 const path = require('path');
+
 dbConnection().then(() => {
     require('./config/express')(app);
     require('./config/routes')(app);
@@ -17,11 +18,12 @@ dbConnection().then(() => {
 
     if(process.env.NODE_ENV === 'production'){
         app.use(express.static(path.join(__dirname, '/client/public')));
+        app.use(express.static(path.join(__dirname, '/client/build')));
         // app.use(express.static(path.join(__dirname, '/api')));
          // Handle React routing, return all requests to React app
-        app.get('/*', function(req, res) {
-            res.sendFile(path.join(__dirname, 'client/build/', 'index.html'));
-        }).catch(console.error);
+        app.get('*', function(req, res) {
+            res.sendFile(path.join(__dirname, '/client/build/index.html'));
+        });
     }
     app.listen(config.port, function () {
     console.log(`🌎  ==> API Server now listening on port ${config.port}!  🌎`);
