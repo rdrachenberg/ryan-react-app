@@ -3,5 +3,19 @@
     "clean_urls":"false",
     "routes": {
         "/**": "index.html"
+    },
+    "proxies": {
+        "/api/message": {
+            "origin": "${API_URL}"
+        },
+        "/api/post": {
+            "origin": "${API_URL}"
+        },
+        "/api/project": {
+            "origin": "${API_URL}"
+        },
+        "/api/user": {
+            "origin": "${API_URL}"
+        }
     }
 }
