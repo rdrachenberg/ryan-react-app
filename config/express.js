@@ -3,6 +3,8 @@ const cookieParser = require('cookie-parser');
 const cors = require('cors');
 const secret = require('./config').secret;
 const authCookieName = require('./config').authCookieName;
+const express = require('express');
+const path = require('path');
 
 
 module.exports = (app) => {
@@ -27,6 +29,9 @@ module.exports = (app) => {
         // Pass to next layer of middleware
         next();
     });
+
+    app.use(express.static(path.join(__dirname, 'client/build')));
+    app.use(express.static(path.join(__dirname, 'client/public')));
     console.log(authCookieName); // will use later for successful login and name cookie. 
 
     app.use(bodyParser.urlencoded({
