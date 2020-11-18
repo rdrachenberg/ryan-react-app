@@ -10,6 +10,7 @@
 
 # production
 # /build
+express-snip.js
 
 # misc
 .DS_Store
