@@ -39,19 +39,26 @@
 
 ### Home Page
 
-<img src="./readMeAssets/hompage.png">
+<img src="./assets/hompage.png">
+</br>
+</br>
 
 ### Portfolio
 
-<img src="./readMeAssets/portfolio.png">
+<img src="./assets/portfolio.png">
+</br>
+</br>
 
 ### Contact Me
 
-<img src="./readMeAssets/contact-me.png">
+<img src="./assets/contact-me.png">
+</br>
+</br>
 
 ### Root File Structure
 
     📦ryan-react-app
+    ┣ 📂assets
     ┣ 📂client
     ┣ 📂config
     ┃ ┣ 📜config.js
