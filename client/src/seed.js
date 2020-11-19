@@ -15,11 +15,11 @@ let cardSeed = [
         "href": "https://eatdaburgerdeployed.herokuapp.com/"
     },
     { 
-        "title": "Got Coin App",
-        "still": "https://github.com/rdrachenberg/Bootstrap-Portfolio/blob/master/public/assets/images/btc.jpg?raw=true",
-        "hover": "https://i.giphy.com/media/LukAHGCMfxMbK/giphy.webp",
-        "text": "Colabritive effort for pulling API request & account creation from Coinbase. Tech Stack: HTML5, CSS3, JavaScript",
-        "href": "/"
+        "title": "Who's Watching",
+        "still": "https://github.com/rdrachenberg/Bootstrap-Portfolio/blob/master/public/assets/images/the-stig-one.png?raw=true",
+        "hover": "https://media.giphy.com/media/1pw5Hn77ylYxW/giphy.gif",
+        "text": "Created app that allows users to sort data. Tech Stack: Node, Handlebars, MySQL, Express, Sequilize",
+        "href": "https://whos-watching.herokuapp.com/students"
     },
     { 
         "title": "Train Schedules",
@@ -36,11 +36,11 @@ let cardSeed = [
         "href": "https://rdrachenberg.github.io/gifTastic/"
     },
     { 
-        "title": "Batman App",
+        "title": "Cook-Uni",
         "still": "https://github.com/rdrachenberg/Bootstrap-Portfolio/blob/master/public/assets/images/batman.jpg?raw=true",
         "hover": "https://i.giphy.com/media/C7RCCFdaixA3u/giphy.webp",
-        "text": "Pulls 10 Batman TV shows from TVmaze.com API.Tech Stack: Node, React, Next.js, Express",
-        "href": "/"
+        "text": "An app to share recipies between users. Tech Stack: Node, Handlebars, KinveyDB(trial)",
+        "href": "https://github.com/rdrachenberg/cook-uni"
     }
 ]
 
