@@ -33,6 +33,10 @@
 </p>
 </br>
 
+### The purpose of this app is to display my porfolio, git experience, and full stack spp deployment capabilities.
+
+</br>
+
 ### Tech Stack - MERN
 
     MongoDB, Express.js, React.js, Node.js

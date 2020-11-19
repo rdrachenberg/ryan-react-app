@@ -144,7 +144,7 @@ const HomeContent = () => {
                 <h3>Additional Work Experience</h3>
                     <h5>
                         <ul>
-                        <li>Consultant at TSS Investment Group Inc.				5/2015 - Present</li>
+                        <li>President at TSS Investment Group Inc.				5/2015 - Present</li>
                         <li>Consultant at The Smile Studio™, Inc.				12/2010 - Present</li>
                         <li>Director at The Florida Gulf Coast REIA, LLC 			12/2013 - 12/2016</li>
                         <li>Acquisitionist at USA M & D, LLC 		9/2012 - 12/2013</li>
