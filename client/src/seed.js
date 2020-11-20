@@ -16,7 +16,7 @@ let cardSeed = [
     },
     { 
         "title": "Who's Watching",
-        "still": "https://github.com/rdrachenberg/Bootstrap-Portfolio/blob/master/public/assets/images/the-stig-one.jpg?raw=true",
+        "still": "https://github.com/rdrachenberg/Bootstrap-Portfolio/blob/master/public/assets/images/the-stig.jpg?raw=true",
         "hover": "https://media.giphy.com/media/1pw5Hn77ylYxW/giphy.gif",
         "text": "Created app that allows users to sort data. Tech Stack: Node, Handlebars, MySQL, Express, Sequilize",
         "href": "https://whos-watching.herokuapp.com/students"
@@ -37,7 +37,7 @@ let cardSeed = [
     },
     { 
         "title": "Cook-Uni",
-        "still": "https://github.com/rdrachenberg/Bootstrap-Portfolio/blob/master/public/assets/images/kobe.jpg?raw=true",
+        "still": "https://github.com/rdrachenberg/Bootstrap-Portfolio/blob/master/public/assets/images/kobe-cook.jpg?raw=true",
         "hover": "https://media.giphy.com/media/Ut88NsZ8fLI1eeyVV9/giphy-downsized.gif",
         "text": "An app to share recipies between users. Tech Stack: Node, Handlebars, KinveyDB(trial)",
         "href": "https://github.com/rdrachenberg/cook-uni"
