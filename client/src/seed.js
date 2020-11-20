@@ -37,8 +37,8 @@ let cardSeed = [
     },
     { 
         "title": "Cook-Uni",
-        "still": "https://github.com/rdrachenberg/Bootstrap-Portfolio/blob/master/public/assets/images/batman.jpg?raw=true",
-        "hover": "https://i.giphy.com/media/C7RCCFdaixA3u/giphy.webp",
+        "still": "https://github.com/rdrachenberg/Bootstrap-Portfolio/blob/master/public/assets/images/kobe.png?raw=true",
+        "hover": "https://media.giphy.com/media/Ut88NsZ8fLI1eeyVV9/giphy-downsized.gif",
         "text": "An app to share recipies between users. Tech Stack: Node, Handlebars, KinveyDB(trial)",
         "href": "https://github.com/rdrachenberg/cook-uni"
     }
