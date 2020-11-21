@@ -1,6 +1,20 @@
 /*eslint no-unused-expressions: ["error", { "allowShortCircuit": true }]*/
 let cardSeed = [
     { 
+        "title": "Who's Watching",
+        "still": "https://github.com/rdrachenberg/Bootstrap-Portfolio/blob/master/public/assets/images/the-stig.jpg?raw=true",
+        "hover": "https://media.giphy.com/media/1pw5Hn77ylYxW/giphy.gif",
+        "text": "Created app that allows users to sort data. Tech Stack: Node, Handlebars, MySQL, Express, Sequilize",
+        "href": "https://whos-watching.herokuapp.com/students"
+    },
+    { 
+        "title": "Cook-Uni",
+        "still": "https://github.com/rdrachenberg/Bootstrap-Portfolio/blob/master/public/assets/images/kobe-cook.jpg?raw=true",
+        "hover": "https://media.giphy.com/media/Ut88NsZ8fLI1eeyVV9/giphy-downsized.gif",
+        "text": "An app to share recipies between users. Tech Stack: Node, Handlebars, KinveyDB(trial)",
+        "href": "https://github.com/rdrachenberg/cook-uni"
+    },
+    { 
         "title": "Friend Finder App",
         "still": "https://github.com/rdrachenberg/Bootstrap-Portfolio/blob/master/public/assets/images/friends.jpg?raw=true",
         "hover": "https://media.giphy.com/media/CHmwA02GQ6aTS/giphy.gif",
@@ -13,13 +27,6 @@ let cardSeed = [
         "hover": "https://media.giphy.com/media/11ZStfKZSXJN1S/giphy.gif",
         "text": "Created a simple Burger App to display SQL DB knowledge. Tech Stack: HTML5, CSS3, Bootstrap, SQL, jQuery",
         "href": "https://eatdaburgerdeployed.herokuapp.com/"
-    },
-    { 
-        "title": "Who's Watching",
-        "still": "https://github.com/rdrachenberg/Bootstrap-Portfolio/blob/master/public/assets/images/the-stig.jpg?raw=true",
-        "hover": "https://media.giphy.com/media/1pw5Hn77ylYxW/giphy.gif",
-        "text": "Created app that allows users to sort data. Tech Stack: Node, Handlebars, MySQL, Express, Sequilize",
-        "href": "https://whos-watching.herokuapp.com/students"
     },
     { 
         "title": "Train Schedules",
@@ -35,13 +42,7 @@ let cardSeed = [
         "text": "Created a gif searching tool. Tech Stack:  HTML5, CSS3, jQuery, JavaScript, Bootstrap, API, Firebase.",
         "href": "https://rdrachenberg.github.io/gifTastic/"
     },
-    { 
-        "title": "Cook-Uni",
-        "still": "https://github.com/rdrachenberg/Bootstrap-Portfolio/blob/master/public/assets/images/kobe-cook.jpg?raw=true",
-        "hover": "https://media.giphy.com/media/Ut88NsZ8fLI1eeyVV9/giphy-downsized.gif",
-        "text": "An app to share recipies between users. Tech Stack: Node, Handlebars, KinveyDB(trial)",
-        "href": "https://github.com/rdrachenberg/cook-uni"
-    }
+    
 ]
 
 export default cardSeed
