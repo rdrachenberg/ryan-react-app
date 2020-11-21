@@ -15,6 +15,7 @@ function NavBar() {
                 <Nav>
                     <Nav.Link href="/">Home</Nav.Link>
                     <Nav.Link href="/portfolio">Portfolio</Nav.Link>
+                    <Nav.Link href="/contributions">Contributions</Nav.Link>
                     <Nav.Link href="/contact-me">Contact Me</Nav.Link>
                 </Nav>
                 <Button href="https://github.com/rdrachenberg" target="_blank" variant="outline-info"><i className="fab fa-github"></i> Github</Button>

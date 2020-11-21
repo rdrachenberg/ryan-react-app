@@ -1,0 +1,34 @@
+import React from 'react';
+import Button from 'react-bootstrap/Button';
+
+const Contributions = () => {
+    return (
+        <div>
+            <div className='row'>
+                <div className='col-md-12'>
+                    <img src='https://camo.githubusercontent.com/6ebbeb3bbce4e34d4c21f1de95ab98534583219057d5d4f04ff330ea99ab5494/68747470733a2f2f6769746875622d726561646d652d73746174732e76657263656c2e6170702f6170693f757365726e616d653d726472616368656e62657267' alt='github-stats' id="github-stats"/>
+                </div>
+                <div className="col-md-2"></div>
+                <div className="col-md-8">
+                    <Button href="https://github.com/rdrachenberg" target="_blank"  id="github-stats-button-one"><i className="fab fa-github"></i> Github</Button>
+                </div>
+                <div className="col-md-2"></div>
+                <div className='col-md-12'>
+                    <img src='https://github.com/rdrachenberg/Bootstrap-Portfolio/blob/master/public/assets/images/ryan-contributions.jpg?raw=true' alt='contributions' id="contributions"/>
+                </div>
+                <div className='col-md-12'>
+                    <img src='https://ghchart.rshah.org/rdrachenberg' alt='current contributions' id='contributions-two'/>
+                </div>
+            </div>
+            <div className='row'>
+                <div className="col-md-2"></div>
+                <div className="col-md-8">
+                    <Button href="https://github.com/rdrachenberg" target="_blank"  id="github-stats-button-two"><i className="fab fa-github"></i> Github</Button>
+                </div>
+                <div className="col-md-2"></div>
+            </div>
+        </div>
+    )
+}
+
+export default Contributions
