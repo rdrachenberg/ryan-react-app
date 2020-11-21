@@ -171,8 +171,12 @@ hr {
     border: 0;
     border-top: 1px solid #17A2B8;
 }
-.img-div{
-    max-width: 300px;
+#img-div{
+    word-wrap: break-word;
+    width: min-content;
+    word-break: break-word;
+    margin-right: 10%;
+    
 }
 
 .jumbotron {
@@ -240,6 +244,10 @@ p{
     color: #f7feff;
     
 
+}
+
+#wrap {
+    word-wrap: break-word;
 }
 
 /* Login CSS */
@@ -341,8 +349,16 @@ p{
     margin-top: 100px;
 }
 
+.wrap-container{
+    display: flex;
+    word-wrap: break-word;
+}
 
 @media (max-width: 576px) {
+    #address-info{
+        max-width: 80%;
+        margin: auto;
+    }
     #jumbotron {
         margin-top: 10%;
     }
@@ -361,15 +377,6 @@ p{
         max-width: 150px;
         margin-top: -5%;
         margin-left: 0px;
-    }
-
-    .fixed-bottom navbar navbar-expand-lg navbar-dark bg-dark{
-        width: 100%;
-    }
-
-    #ryan-drac-gif{
-        object-fit: cover;
-        width: 100%;
     }
 
     .flex-container {
