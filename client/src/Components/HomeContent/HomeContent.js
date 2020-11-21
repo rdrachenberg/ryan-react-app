@@ -169,7 +169,7 @@ const HomeContent = () => {
                 </i>
                 <div className="wrap-container">
                     <div className="col-md-8">
-                        <p>Those who receive this badge have demonstrated a fundamental working knowledge of HTML, CSS, JavaScript, jQuery, Firebase, Node.js, Express.js, MySQL, MongoDB, Mongoose, & React.js. They have displayed their ability to work with diverse teams on demanding time-lines to build fully functional web applications from start to finish. In addition, they have exhibited the skills necessary to learn new technologies & resolve issues independently. This program consists of 250 contact hours or 25.0 CEUs.</p>
+                        <p>Those who receive this badge have demonstrated a fundamental working knowledge of HTML, CSS, JavaScript, jQuery, Firebase, Node.js, Express.js, MySQL, MongoDB, Mongoose, & React.js. They have displayed their ability to work with diverse teams on demanding time-lines to build fully functional web applications from start to finish. In addition, they have exhibited the skills necessary to learn new technologies & resolve issues independently.</p>
                     </div>
                     <div id="img-div" className="col-md-2">
                         <a href="https://www.credly.com/credit/14881985">
