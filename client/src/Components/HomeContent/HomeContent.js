@@ -155,10 +155,24 @@ const HomeContent = () => {
                 <hr/>
                 <br/>
                 <h3>Education</h3>
+                    <h4>Kingsland University</h4>
+                    <i>
+                        <h5>Blockchain Development</h5>
+                    </i>
+                    <div className="col-md-9">
+                        <p>Currently enrolled in Kingsland University Blockchain Developer program. I have completed the 9 month full stack developer portion of the program and am now in the final Blockcahin Certification portion of it. I should have this completed in by next quarter. More information can be found <a href="https://kingslanduniversity.com/zero-to-blockchain-developer-program/" target="_blank" rel="noreferrer">here</a></p>
+                    </div>
+                    <br/>
                     <h4>University of Central Florida</h4>
                     <i>
                         <h5>Full Stack Web Development</h5>
                     </i>
+                    <row>
+                    <a href="https://www.credly.com/credit/14881985">
+                    <div id="imgDiv" className="col-md-2">
+                        <img src="https://credlyapp.s3.amazonaws.com/badges/71f74aa24f3b222aebc92bb9f9c61b18_17.png" alt="badge" width="180px"/>
+                    </div>
+                    </a>
                 <div className="col-md-9">
                     <p>Those who receive this badge have demonstrated a fundamental working knowledge of HTML, CSS, JavaScript, jQuery, Firebase,
                         Node.js, Express.js, MySQL, MongoDB, Mongoose, & React.js. They have displayed their ability to work with diverse teams
@@ -166,11 +180,13 @@ const HomeContent = () => {
                         the skills necessary to learn new technologies & resolve issues independently. This program consists of 250 contact hours
                         or 25.0 CEUs.</p>
                         
+                        
                     <p>Completion of the following: 24-week program, 250 contact hours plus individual & group projects utilizing HTML, CSS, JavaScript,
                         jQuery, Firebase, Node.js, MySQL, MongoDB, Mongoose, and React.js.</p>
                     <p>Best Regards,</p>
                     <p>Ryan Drachenberg</p>
                 </div>
+                </row>
         </Container>
     )
 }

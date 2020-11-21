@@ -171,6 +171,9 @@ hr {
     border: 0;
     border-top: 1px solid #17A2B8;
 }
+.img-div{
+    max-width: 300px;
+}
 
 .jumbotron {
     margin: 0.25%;
@@ -336,4 +339,42 @@ p{
 }
 .portfolio-spacer{
     margin-top: 100px;
+}
+
+
+@media (max-width: 576px) {
+    #jumbotron {
+        margin-top: 10%;
+    }
+    #bio-pic {
+        max-width: 145px;
+        margin-top: 4%;
+        margin-left: 1.5%;
+        margin-bottom: 1%;
+    }
+
+    cite::before{
+        width: 74%;
+    }
+
+    #jumbo-button{
+        max-width: 150px;
+        margin-top: -5%;
+        margin-left: 0px;
+    }
+
+    .fixed-bottom navbar navbar-expand-lg navbar-dark bg-dark{
+        width: 100%;
+    }
+
+    #ryan-drac-gif{
+        object-fit: cover;
+        width: 100%;
+    }
+
+    .flex-container {
+        max-width: 100%;
+        margin-top: 20%;
+    }
+
 }
