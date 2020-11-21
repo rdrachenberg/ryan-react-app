@@ -167,20 +167,16 @@ const HomeContent = () => {
                 <i>
                     <h5>Full Stack Web Development</h5>
                 </i>
-                <row className="wrap-container">
+                <div className="wrap-container">
                     <div className="col-md-8">
-                        <p>Those who receive this badge have demonstrated a fundamental working knowledge of HTML, CSS, JavaScript, jQuery, Firebase,
-                            Node.js, Express.js, MySQL, MongoDB, Mongoose, & React.js. They have displayed their ability to work with diverse teams
-                            on demanding time-lines to build fully functional web applications from start to finish. In addition, they have exhibited
-                            the skills necessary to learn new technologies & resolve issues independently. This program consists of 250 contact hours
-                            or 25.0 CEUs.</p>
+                        <p>Those who receive this badge have demonstrated a fundamental working knowledge of HTML, CSS, JavaScript, jQuery, Firebase, Node.js, Express.js, MySQL, MongoDB, Mongoose, & React.js. They have displayed their ability to work with diverse teams on demanding time-lines to build fully functional web applications from start to finish. In addition, they have exhibited the skills necessary to learn new technologies & resolve issues independently. This program consists of 250 contact hours or 25.0 CEUs.</p>
                     </div>
-                    <div id="imgDiv" className="col-md-2">
+                    <div id="img-div" className="col-md-2">
                         <a href="https://www.credly.com/credit/14881985">
                             <img src="https://credlyapp.s3.amazonaws.com/badges/71f74aa24f3b222aebc92bb9f9c61b18_17.png" alt="badge" width="180px"/>
                         </a>
                     </div>
-                </row>
+                </div>
                 
                 <p>Completion of the following: 24-week program, 250 contact hours plus individual & group projects utilizing HTML, CSS, JavaScript, jQuery, Firebase, Node.js, MySQL, MongoDB, Mongoose, and React.js.</p>
                 <h5>Best Regards,</h5>
