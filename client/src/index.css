@@ -132,7 +132,7 @@ cite:before {
     max-width: 100%;
 }
 #contributions-two {
-    margin-bottom: 4%;
+    margin-bottom: 2%;
 }
 
 .fixed-bottom {
@@ -158,6 +158,17 @@ cite:before {
     margin-bottom: 1%;
 
 }
+
+#git-logo {
+    max-width: 100%;
+    max-height: 150px;
+    margin-top: 10%;
+    
+}
+
+#git-merge {
+    margin-bottom: 3%;
+}
 #github-most-languages{
     height: 350px;
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
@@ -165,11 +176,11 @@ cite:before {
 }
 #github-stats{
     margin-top: 1%;
-    margin-bottom: 1%;
+    
 }
 #github-stats-button-one{
     margin-bottom: 4%;
-    margin-top: 4%;
+    
     width: 80%;
     background-color: #17A2B8;
 }
@@ -397,6 +408,30 @@ p{
 
     cite::before{
         width: 74%;
+    }
+
+    #contributions-two {
+        max-width: 100%;
+    }
+    
+    #git-logo{
+        max-width: 100%; 
+        margin-top: 0%;
+        margin-bottom: 2%;
+    }
+
+    #git-merge {
+        max-width: 100%;
+    }
+    #github-stats {
+        max-width: 100%;
+    }
+
+    #github-stats-button-two {
+        margin-bottom: 3%;
+    }
+    #incase-fire{
+        margin-bottom: 0%;
     }
     #img-div{
         align-items: center;
