@@ -20,27 +20,11 @@ const Contributions = () => {
                 <div className='col-md-2'></div>
             </div>
             <div className='row'>
-                <div className="col-md-2"></div>
-                <div className="col-md-8">
-                    <Button href="https://github.com/rdrachenberg" target="_blank"  id="github-stats-button-one"><i className="fab fa-github"></i> Github</Button>
-                </div>
-                <div className="col-md-2"></div>
-            </div>
-            <div className='row'>
                 <div className='col-md-12'>
                     <img src='https://github.com/rdrachenberg/Bootstrap-Portfolio/blob/master/public/assets/images/ryan-contributions.jpg?raw=true' alt='contributions' id="contributions"/>
                 </div>
             </div>
-            <div className='row'>
-                <div className='col-md-12'>
-                    <img src='https://ghchart.rshah.org/rdrachenberg' alt='current contributions' id='contributions-two'/>
-                </div>
-            </div>
-            <div className='row'>
-                <div className='col-md-12'>
-                    <img src='https://github.com/rdrachenberg/Bootstrap-Portfolio/blob/master/public/assets/images/git-merge.gif?raw=true' alt='git merge' id='git-merge'/>
-                </div>
-            </div>
+            
             <div className='row'>
                 <div className="col-md-2"></div>
                 <div className="col-md-8">
