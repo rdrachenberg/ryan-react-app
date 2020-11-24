@@ -1,6 +1,13 @@
 /*eslint no-unused-expressions: ["error", { "allowShortCircuit": true }]*/
 let cardSeed = [
     { 
+        "title": "Capital Block",
+        "still": "https://github.com/rdrachenberg/Bootstrap-Portfolio/blob/master/public/assets/images/ticker-gif-still.jpg",
+        "hover": "https://media.giphy.com/media/JtBZm3Getg3dqxK0zP/giphy-downsized.gif",
+        "text": "Created app that allows users to login, and sign up for classes. Tech Stack: Node, Handlebars, MongoDB, Express, JWT",
+        "href": "https://capital-block.herokuapp.com/"
+    },
+    { 
         "title": "Tutorial Professor",
         "still": "https://github.com/rdrachenberg/Bootstrap-Portfolio/blob/master/public/assets/images/books-still.jpg?raw=true",
         "hover": "https://media.giphy.com/media/Ec5RkrmARxPmTuXgrZ/giphy.gif",
