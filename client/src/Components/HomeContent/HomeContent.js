@@ -23,7 +23,7 @@ const HomeContent = () => {
             <Row>
             {/* <!-- second paragraph --> */}
             <Col>
-                <p> Finance and Technology have been prevalent throughout my life. I've had the fortune to run multiple companies and freelanced IT services before really diving into computer programming. Being experienced in both fields has been extremely valuable and gives me insight that most devs don't have. I take extreme ownership in my work and take challenges with stride. I love that we actually get to solve real world probelms. The best way to predict the future is to invent it.</p>
+                <p> Finance and Technology have been prevalent throughout my life. I've had the fortune to run multiple companies and freelanced IT services before really diving into computer programming. Being experienced in both fields has been extremely valuable and gives me insight that most devs don't have. I take extreme ownership in my work and take challenges with stride. I love that we actually get to solve real world problems. The best way to predict the future is to invent it.</p>
                 <blockquote><i>"An engineer is someone who can make for a Dollar<br/> what any fool could make for two".</i><cite>Alan Kay</cite></blockquote>
                 
                 <p><strong>Let’s build something awesome together!</strong></p>
