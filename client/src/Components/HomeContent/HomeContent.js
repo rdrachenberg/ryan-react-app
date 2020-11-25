@@ -160,7 +160,7 @@ const HomeContent = () => {
                     <h5>Blockchain Development</h5>
                 </i>
                 <div className="col-md-9">
-                    <p>Currently enrolled in Kingsland University Blockchain Developer program. I have completed the 9 month full stack developer portion of the program and am now in the final Blockcahin Certification portion of it. I should have this completed in by next quarter. More information can be found <a href="https://kingslanduniversity.com/zero-to-blockchain-developer-program/" target="_blank" rel="noreferrer">here</a></p>
+                    <p>Currently enrolled in Kingsland University Blockchain Developer program. I have completed the 9 month full stack developer portion of the program and am now in the final Blockchain Certification portion of it. I should have this completed in by next quarter. More information can be found <a href="https://kingslanduniversity.com/zero-to-blockchain-developer-program/" target="_blank" rel="noreferrer">here</a></p>
                 </div>
                 <br/>
                 <h4>University of Central Florida</h4>
