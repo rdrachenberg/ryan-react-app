@@ -159,10 +159,19 @@ const HomeContent = () => {
                 <i>
                     <h5>Blockchain Development</h5>
                 </i>
-                <div className="col-md-9">
-                    <p>Currently enrolled in Kingsland University Blockchain Developer program. I have completed the 9 month full stack developer portion of the program and am now in the final Blockchain Certification portion of it. I should have this completed in by next quarter. More information can be found <a href="https://kingslanduniversity.com/zero-to-blockchain-developer-program/" target="_blank" rel="noreferrer">here</a></p>
-                    <br/>
-                    <p><a href="https://blockchaincertificate-verify.kingsland.io/certificate/5fcdf04e686adb11255ebbab" target="_blank" rel="noreferrer">Here is my full stack certificate, logged and verified on the Ethereum Blockchain.</a></p>
+                <div className="wrap-container">
+                    <div className="col-md-8">
+                        <p>Currently enrolled in Kingsland University Blockchain Developer program. I have completed the 9 month full stack developer portion of the program and am now in the final Blockchain Certification portion of it. I should have this completed in by next quarter. More information can be found <a href="https://kingslanduniversity.com/zero-to-blockchain-developer-program/" target="_blank" rel="noreferrer">here</a></p>
+                    </div>
+                    <div id="img-div-one" className="col-md-2">
+                        <a href="https://blockchaincertificate-verify.kingsland.io/certificate/5fcdf04e686adb11255ebbab" target="_blank" rel="noreferrer">
+                            <img src="https://github.com/rdrachenberg/Bootstrap-Portfolio/blob/master/public/assets/images/Valid_Badge.4f9193d8.jpg?raw=true" alt="badge" width="180px"/>
+                        </a>
+                    </div>
+                    <div className="col-md-8">
+                        <p>My full stack developer certificate, which is logged and verified on the Ethereum Blockchain, can be found <a href="https://blockchaincertificate-verify.kingsland.io/certificate/5fcdf04e686adb11255ebbab" target="_blank" rel="noreferrer">here.</a></p>
+                    </div>
+                    
                 </div>
                 <br/>
                 <h4>University of Central Florida</h4>
@@ -173,7 +182,7 @@ const HomeContent = () => {
                     <div className="col-md-8">
                         <p>Those who receive this badge have demonstrated a fundamental working knowledge of HTML, CSS, JavaScript, jQuery, Firebase, Node.js, Express.js, MySQL, MongoDB, Mongoose, & React.js. They have displayed their ability to work with diverse teams on demanding time-lines to build fully functional web applications from start to finish. In addition, they have exhibited the skills necessary to learn new technologies & resolve issues independently.</p>
                     </div>
-                    <div id="img-div" className="col-md-2">
+                    <div id="img-div-two" className="col-md-2">
                         <a href="https://www.credly.com/credit/14881985">
                             <img src="https://credlyapp.s3.amazonaws.com/badges/71f74aa24f3b222aebc92bb9f9c61b18_17.png" alt="badge" width="180px"/>
                         </a>

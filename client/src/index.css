@@ -203,7 +203,13 @@ hr {
     border: 0;
     border-top: 1px solid #17A2B8;
 }
-#img-div {
+#img-div-one {
+    overflow-wrap: break-word;
+    max-width: 20%;
+    margin: 0 20px 0 0;
+    
+}
+#img-div-two {
     overflow-wrap: break-word;
     max-width: 20%;
     margin: 0 20px 0 0;
