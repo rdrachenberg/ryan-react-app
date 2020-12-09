@@ -59,6 +59,7 @@ const HomeContent = () => {
                     <ul>
                         <li>The front end is React. </li>
                         <li>The backend is Node.js, Express for routing, and MongoDB for my database</li>
+                        <li>Mobile friendly, responsive design</li>
                         <li>Tech Stack - React, Node.js, Express, MongoDB</li>
                     </ul>
                 </h5>
@@ -91,7 +92,7 @@ const HomeContent = () => {
                     </a>
                 </h4>
                 <h5>
-                    I built this React site to display my portfolio.
+                    This app allows you to pull the top 10 gifs for any keyword search.
                 </h5>
             </Col>
             <Col></Col>
