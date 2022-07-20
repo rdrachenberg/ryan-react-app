@@ -177,7 +177,7 @@ const HomeContent = () => {
                 </i>
                 <div className="wrap-container">
                     <div className="col-md-8">
-                        <p>Blockchain Engineer - Completed July 2022 <a href="/" target="_blank" rel="noreferrer"></a></p>
+                        <p>Blockchain Engineer - Completed July 2022</p>
                     </div>
                     <div id="img-div-one" className="col-md-2">
                         <a href="https://blockchaincertificate-verify.kingsland.io/certificate/5fcdf04e686adb11255ebbab" target="_blank" rel="noreferrer">
