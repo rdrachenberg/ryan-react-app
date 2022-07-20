@@ -178,16 +178,13 @@ const HomeContent = () => {
                 <div className="wrap-container">
                     <div className="col-md-8">
                         <p>Blockchain Engineer - Completed July 2022</p>
+                        <p>My full stack developer certificate, which is logged and verified on the Ethereum Blockchain, can be found <a href="https://blockchaincertificate-verify.kingsland.io/certificate/5fcdf04e686adb11255ebbab" target="_blank" rel="noreferrer">here.</a></p>
                     </div>
                     <div id="img-div-one" className="col-md-2">
                         <a href="https://blockchaincertificate-verify.kingsland.io/certificate/5fcdf04e686adb11255ebbab" target="_blank" rel="noreferrer">
                             <img src="https://github.com/rdrachenberg/Bootstrap-Portfolio/blob/master/public/assets/images/Valid_Badge.4f9193d8.jpg?raw=true" alt="badge" width="180px"/>
                         </a>
                     </div>
-                    <div className="col-md-8">
-                        <p>My full stack developer certificate, which is logged and verified on the Ethereum Blockchain, can be found <a href="https://blockchaincertificate-verify.kingsland.io/certificate/5fcdf04e686adb11255ebbab" target="_blank" rel="noreferrer">here.</a></p>
-                    </div>
-                    
                 </div>
                 <br/>
                 <h4>University of Central Florida</h4>
