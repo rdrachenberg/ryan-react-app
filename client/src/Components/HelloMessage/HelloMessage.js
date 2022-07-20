@@ -4,7 +4,7 @@ import Typical from 'react-typical';
 const HelloMessage = () => {
 
     return (
-        <Typical 
+        <Typical
             steps={[
             'Hello, My name is Ryan Drachenberg 👨‍💻', 1000,
             'I am a Blockchain Engineer', 1000, 

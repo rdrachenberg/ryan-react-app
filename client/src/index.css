@@ -431,6 +431,10 @@ p{
     color: white;
 }
 
+#welcome-message {
+    margin-top: 5px;
+}
+
 .wrap-container{
     display: flex;
     overflow-wrap: break-word;

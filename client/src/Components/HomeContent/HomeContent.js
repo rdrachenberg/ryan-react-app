@@ -11,14 +11,14 @@ const HomeContent = () => {
     return (
         <Container id='home-content-container'>
             <Row>
-                <Col md='12'>
+                <Col md='12' id='welcome-message'>
                     <HelloMessage />
                 </Col>
             </Row>
             <Row>
             {/* <!-- first paragraph --> */}
             <Col>
-                <p id='text-to-wrap'> Ever since I can remember I’ ve been fascinated by technology. This fascination has led me to pursue a career in IT and given me the drive to become a full stack web developer. I believe the future is in web development and it is thrilling to see applications come to life.</p>
+                <p id='text-to-wrap'> Ever since I can remember I’ ve been fascinated by technology. This fascination has led me to pursue a career in IT and given me the drive to first become a full stack web developer, and then a blockchain engineer. Together, through code; we can acheive incredible things. I believe the future is in web development and it is thrilling to see applications come to life.</p>
             </Col>
             <Col md='4'>
             
