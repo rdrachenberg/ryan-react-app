@@ -4,20 +4,33 @@ import Row from 'react-bootstrap/Row';
 import Col from 'react-bootstrap/Col';
 import Image from 'react-bootstrap/Image';
 import MostLanguages from '../MostLanguages/MostLanguages'
+import HelloMessage from '../HelloMessage/HelloMessage'
 
 const HomeContent = () => {
 
     return (
         <Container id='home-content-container'>
-            <Row id='gif-row'>
-            <Col></Col>
-            <img src={'/ryan-drac-bio.gif'} alt='Ryan Drachenber bio gif' id='ryan-drac-gif' />
-            <Col></Col>
+            <Row>
+                <Col md='12'>
+                    <HelloMessage />
+                </Col>
             </Row>
             <Row>
             {/* <!-- first paragraph --> */}
             <Col>
                 <p id='text-to-wrap'> Ever since I can remember I’ ve been fascinated by technology. This fascination has led me to pursue a career in IT and given me the drive to become a full stack web developer. I believe the future is in web development and it is thrilling to see applications come to life.</p>
+            </Col>
+            <Col md='4'>
+            
+                <div id='sea-horse-img-container'>
+                    <a href='http://sea-horse.herokuapp.com/' target='__blank'>
+                        <Image src={process.env.PUBLIC_URL + '/sea-horse.png'} alt='sea horse site' className="sea-horse-img"/>
+                        <p id='latest-nft-project-text'>Latest NFT Project: Sea Horse</p>
+                    </a>
+                    <a href='https://github.com/rdrachenberg/sea-horse' target='__blank'>
+                        <p id='sea-horse-github'><i className="fab fa-github"></i> github</p>
+                    </a>
+                </div>
             </Col>
             </Row>
             <Row>
@@ -33,7 +46,7 @@ const HomeContent = () => {
             {/* <!-- third paragraph --> */}
             <Row>
             <Col>
-                <p> Im currently working on my blockchain developer certification through Kingsland University. I am always looking for new opportunities. Feel free to contact me via e-mail at <a href='mailto:ryandrachenberg@gmail.com'>ryandrachenberg@gmail.com</a> or phone <a href='tel:1-407-341-1162'>407-341-1162</a>. I look forward to meeting you. 
+                <p> I have recently finished my Blockchain Engineer certification through Kingsland University. Currently Im working on cypto payment rails, a web3 project. I am always looking for new opportunities. Feel free to contact me via e-mail at <a href='mailto:ryandrachenberg@gmail.com'>ryandrachenberg@gmail.com</a> or phone <a href='tel:1-407-341-1162'>407-341-1162</a>. I look forward to meeting you. 
                 </p>
             </Col>
             </Row>
@@ -178,6 +191,8 @@ const HomeContent = () => {
                 <div className="wrap-container">
                     <div className="col-md-8">
                         <p>Blockchain Engineer - Completed July 2022</p>
+                        <p>Blockchain Essentials <a href="https://blockchaincertificate-verify.kingsland.io/certificate/61bb0584815b0057d5c91d03" target= "__blank">here</a></p>
+                        <p>Blockchain Wallets and Transactions <a href="https://blockchaincertificate-verify.kingsland.io/certificate/61bb0584815b0057d5c91cfc" target= "__blank">here</a></p>
                         <p>My full stack developer certificate, which is logged and verified on the Ethereum Blockchain, can be found <a href="https://blockchaincertificate-verify.kingsland.io/certificate/5fcdf04e686adb11255ebbab" target="_blank" rel="noreferrer">here.</a></p>
                     </div>
                     <div id="img-div-one" className="col-md-2">

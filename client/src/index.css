@@ -377,13 +377,58 @@ p{
     margin: auto;
     margin-top: 5%;
 }
+
 .flex-container > div{
     margin: auto;
-    
-    
+}
+
+@keyframes glowing {
+    0% {
+      background-color: #17A1B8;
+      box-shadow: 0 0 5px #17A1B8;
+    }
+    50% {
+      background-color: #85d5e3;
+      box-shadow: 0 0 20px #17A1B8;
+    }
+    100% {
+      background-color: #17A1B8;
+      box-shadow: 0 0 5px #00d1f5;
+    }
+  }
+
+#latest-nft-project-text{
+    color: white;
 }
 .portfolio-spacer{
     margin-top: 100px;
+}
+
+#sea-horse-img-container {
+    max-width: 500px;
+
+    width: 380px;
+    margin-bottom: 10px;
+    flex-wrap: wrap;
+    background-color: #282726;
+    border-radius: 20px;
+    padding: 10px;
+    background-color: #000000;
+    background-image: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(14,14,125,1) 37%, rgba(107,180,195,1) 100%);
+    color: aqua;
+    border-radius: 20px; 
+    animation: glowing 4300ms infinite;
+    transition: all 0.2s ease-in-out;
+
+}
+
+.sea-horse-img {
+    height: 90px;
+    
+}
+
+#sea-horse-github {
+    color: white;
 }
 
 .wrap-container{
