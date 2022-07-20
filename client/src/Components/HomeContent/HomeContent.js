@@ -131,6 +131,20 @@ const HomeContent = () => {
             <hr/>
             <br/>
             <h3>Experience</h3>
+                <h4>Kingsland University</h4>
+                <h4><i>Teaching Assistant</i></h4>
+                <h4><i>Web Developer</i></h4>
+                <h5>
+                    <ul>
+                    <li>Maintaining Code Base</li>
+                    <li>Correcting Assignment Testing Specs</li>
+                    <li>Pull Request</li>
+                    <li>Weekly AMA's</li>
+                    <li>Student Code Review</li>
+                    </ul>
+                </h5>
+                <hr/>
+                <br/>
                 <h4>TSS Investment Group, Inc</h4>
                 <h4><i>Web Development</i></h4>
                 <h5>
@@ -145,8 +159,9 @@ const HomeContent = () => {
                 <h3>Additional Work Experience</h3>
                     <h5>
                         <ul>
+                        <li>TA & Developer at Kingsland University				5/2021 - Present</li>
                         <li>President at TSS Investment Group Inc.				5/2015 - Present</li>
-                        <li>Consultant at The Smile Studio™, Inc.				12/2010 - Present</li>
+                        <li>Consultant at The Smile Studio™, Inc.				12/2010 - 2017</li>
                         <li>Director at The Florida Gulf Coast REIA, LLC 			12/2013 - 12/2016</li>
                         <li>Acquisitionist at USA M & D, LLC 		9/2012 - 12/2013</li>
                         <li>Real Estate Acquisitionist Forever Wealth Club, LLC 		1/2006 - 2/2008</li>
@@ -162,7 +177,7 @@ const HomeContent = () => {
                 </i>
                 <div className="wrap-container">
                     <div className="col-md-8">
-                        <p>Currently enrolled in Kingsland University Blockchain Developer program. I have completed the 9 month full stack developer portion of the program and am now in the final Blockchain Certification portion of it. I should have this completed in by next quarter. More information can be found <a href="https://kingslanduniversity.com/zero-to-blockchain-developer-program/" target="_blank" rel="noreferrer">here</a></p>
+                        <p>Blockchain Engineer - Completed July 2022 <a href="/" target="_blank" rel="noreferrer"></a></p>
                     </div>
                     <div id="img-div-one" className="col-md-2">
                         <a href="https://blockchaincertificate-verify.kingsland.io/certificate/5fcdf04e686adb11255ebbab" target="_blank" rel="noreferrer">
