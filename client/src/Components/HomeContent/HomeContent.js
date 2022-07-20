@@ -191,9 +191,11 @@ const HomeContent = () => {
                 <div className="wrap-container">
                     <div className="col-md-8">
                         <p>Blockchain Engineer - Completed July 2022</p>
+                        <p>All certificates are logged and verified on the Ethereum Blockchain</p>
                         <p>Blockchain Essentials <a href="https://blockchaincertificate-verify.kingsland.io/certificate/61bb0584815b0057d5c91d03" target= "__blank">here</a></p>
                         <p>Blockchain Wallets and Transactions <a href="https://blockchaincertificate-verify.kingsland.io/certificate/61bb0584815b0057d5c91cfc" target= "__blank">here</a></p>
-                        <p>My full stack developer certificate, which is logged and verified on the Ethereum Blockchain, can be found <a href="https://blockchaincertificate-verify.kingsland.io/certificate/5fcdf04e686adb11255ebbab" target="_blank" rel="noreferrer">here.</a></p>
+                        <p>Solidity and Smart Contracts<a href="https://blockchaincertificate-verify.kingsland.io/certificate/61bb0584815b0057d5c91cf1" target= "__blank"> here</a></p>
+                        <p>My full stack developer certificate, which can be found <a href="https://blockchaincertificate-verify.kingsland.io/certificate/5fcdf04e686adb11255ebbab" target="_blank" rel="noreferrer">here.</a></p>
                     </div>
                     <div id="img-div-one" className="col-md-2">
                         <a href="https://blockchaincertificate-verify.kingsland.io/certificate/5fcdf04e686adb11255ebbab" target="_blank" rel="noreferrer">
