@@ -54,18 +54,63 @@ const HomeContent = () => {
             <hr />
             <Row className='built-apps'>
             <Col md={6}>
-                <h4>
-                <a href="/" target="_Blank" rel="noopener noreferrer" className="app-links">
-                    <strong>Ryan's Awesome App</strong>
-                </a>
-                </h4>
-                <h5>
-                    I built this React site to display my portfolio.
+                    <h4>
+                    <a href="/" target="_Blank" rel="noopener noreferrer" className="app-links">
+                        <strong>Sea Horse</strong>
+                    </a>
+                    </h4>
+                    <h5>
+                        This web3 dApp allows anyone to make an NFT with a simple jpg or png file.
+                    </h5>
+                </Col>
+                <Col></Col>
+                <Col></Col>
+            </Row>
+            <Row>
+                <h5> 
+                    <ul>
+                        <li>The front end is React. </li>
+                        <li>The backend is Node.js, Express for routing, and Moralis for my database</li>
+                        <li>Mobile friendly, responsive design</li>
+                        <li>Mint fees are accrued and only availble to be withdrawled by the contract creater.</li>
+                        <li>Image hash storage on IFPS</li>
+                        <li>Contract currently deployed on the Ropestein testnet <a href='https://ropsten.etherscan.io/address/0x36736f7231e55182e09be6fd14abdb528baff6b5'>here</a></li>
+                        <li>Tech Stack - React, Node.js, Express, Moralis, IFPS</li>
+                    </ul>
                 </h5>
-            </Col>
-            <Col></Col>
-            <Col></Col>
-                
+            </Row>
+            <Container style={{'display':'flex'}}>
+                <Row style={{'alignItems':'center', 'justifyContent':'left'}}>
+                    <Col xs={3} md={2}>
+                        <Image src='https://cdn3.icicletech.com/media/react-logo.png' alt='react' width={'100%'} rounded/>
+                    </Col>
+                    <Col xs={3} md={2}>
+                        <Image src='https://cdn.pixabay.com/photo/2015/04/23/17/41/node-js-736399_960_720.png' width={'100%'}alt='node' rounded/>
+                    </Col>
+                    <Col xs={3} md={2}>
+
+                        <Image src='https://vegibit.com/wp-content/uploads/2018/05/expressjs.png' alt='express' width={'100%'} rounded/> 
+                    </Col>
+                    
+                    <Col xs={3} md={2}>
+                        <Image src='https://moralis.io/wp-content/uploads/2022/05/Moralis-Logo-LightBG-Large.png' alt='moralis' width={'100%'} rounded/>
+                    </Col>
+                </Row>
+            </Container>
+            <hr />
+            <Row className='built-apps'>
+                <Col md={6}>
+                    <h4>
+                    <a href="/" target="_Blank" rel="noopener noreferrer" className="app-links">
+                        <strong>Ryan's Awesome App</strong>
+                    </a>
+                    </h4>
+                    <h5>
+                        I built this React site to display my portfolio.
+                    </h5>
+                </Col>
+                <Col></Col>
+                <Col></Col>
             </Row>
             <Row>
                 <h5> 
@@ -77,8 +122,8 @@ const HomeContent = () => {
                     </ul>
                 </h5>
             </Row>
-            <Container>
-                <Row>
+            <Container style={{'display':'flex'}}>
+                <Row style={{'alignItems':'center', 'justifyContent':'left'}}>
                     <Col xs={3} md={2}>
                         <Image src='https://cdn3.icicletech.com/media/react-logo.png' alt='react' width={'100%'} rounded/>
                     </Col>
@@ -121,8 +166,8 @@ const HomeContent = () => {
                     </ul>
                 </h5>
             </Row>
-            <Container>
-                <Row>
+            <Container style={{'display':'flex'}}>
+                <Row style={{'alignItems':'center', 'justifyContent':'left'}}>
                     <Col xs={3} md={2}>
                         <Image src='https://designhooks.com/wp-content/uploads/2016/04/html5-and-css3.png' alt='HTM5-CSS3' width={'100%'} rounded/>
                     </Col>
@@ -172,7 +217,7 @@ const HomeContent = () => {
                 <h3>Additional Work Experience</h3>
                     <h5>
                         <ul>
-                        <li>TA & Developer at Kingsland University				5/2021 - Present</li>
+                        <li>TA & Developer at Kingsland University				1/2021 - Present</li>
                         <li>President at TSS Investment Group Inc.				5/2015 - Present</li>
                         <li>Consultant at The Smile Studio™, Inc.				12/2010 - 2017</li>
                         <li>Director at The Florida Gulf Coast REIA, LLC 			12/2013 - 12/2016</li>
@@ -190,11 +235,16 @@ const HomeContent = () => {
                 </i>
                 <div className="wrap-container">
                     <div className="col-md-8">
-                        <p>Blockchain Engineer - Completed July 2022</p>
-                        <p>All certificates are logged and verified on the Ethereum Blockchain</p>
-                        <p>Blockchain Essentials <a href="https://blockchaincertificate-verify.kingsland.io/certificate/61bb0584815b0057d5c91d03" target= "__blank">here</a></p>
-                        <p>Blockchain Wallets and Transactions <a href="https://blockchaincertificate-verify.kingsland.io/certificate/61bb0584815b0057d5c91cfc" target= "__blank">here</a></p>
-                        <p>Solidity and Smart Contracts<a href="https://blockchaincertificate-verify.kingsland.io/certificate/61bb0584815b0057d5c91cf1" target= "__blank"> here</a></p>
+                        <h5>Blockchain Engineer - Completed July 2022</h5>
+                        <h5>
+                            <ul>
+                                <li>All certificates are logged and verified on the Ethereum Blockchain</li>
+                                <li>Blockchain Essentials <a href="https://blockchaincertificate-verify.kingsland.io/certificate/61bb0584815b0057d5c91d03" target= "__blank">here</a></li>
+                                <li>Blockchain Wallets and Transactions <a href="https://blockchaincertificate-verify.kingsland.io/certificate/61bb0584815b0057d5c91cfc" target= "__blank">here</a></li>
+                                <li>Solidity and Smart Contracts<a href="https://blockchaincertificate-verify.kingsland.io/certificate/61bb0584815b0057d5c91cf1" target= "__blank"> here</a></li>
+                            </ul>
+                        </h5>
+                        
                         <p>My full stack developer certificate, which can be found <a href="https://blockchaincertificate-verify.kingsland.io/certificate/5fcdf04e686adb11255ebbab" target="_blank" rel="noreferrer">here.</a></p>
                     </div>
                     <div id="img-div-one" className="col-md-2">
