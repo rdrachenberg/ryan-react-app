@@ -55,7 +55,7 @@ const HomeContent = () => {
             <Row className='built-apps'>
             <Col md={6}>
                     <h4>
-                    <a href="/" target="_Blank" rel="noopener noreferrer" className="app-links">
+                    <a href="http://sea-horse.herokuapp.com/" target="_Blank" rel="noopener noreferrer" className="app-links">
                         <strong>Sea Horse</strong>
                     </a>
                     </h4>
@@ -66,6 +66,7 @@ const HomeContent = () => {
                 <Col></Col>
                 <Col></Col>
             </Row>
+            <Row></Row>
             <Row>
                 <h5> 
                     <ul>
