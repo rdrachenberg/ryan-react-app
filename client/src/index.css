@@ -514,4 +514,21 @@ p{
         margin-top: 20%;
     }
 
+    .styles_typicalWrapper__1_Uvh{
+        font-size: 19px;
+        font-weight: bold;
+    }
+
+    #welcome-message {
+        margin: auto;
+        padding-top: 20px;
+        padding-bottom: 20px;
+        
+        height: 60px;
+        
+        text-align: left;
+        justify-content: center;
+        
+    }
+
 }
