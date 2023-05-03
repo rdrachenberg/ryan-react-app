@@ -83,7 +83,7 @@ const HomeContent = () => {
             <Container style={{'display':'flex'}}>
                 <Row style={{'alignItems':'center', 'justifyContent':'left'}}>
                     <Col xs={3} md={2}>
-                        <Image src='https://cdn3.icicletech.com/media/react-logo.png' alt='react' width={'100%'} rounded/>
+                        <Image src='https://upload.wikimedia.org/wikipedia/commons/thumb/a/a7/React-icon.svg/1200px-React-icon.svg.png' alt='react' width={'100%'} rounded/>
                     </Col>
                     <Col xs={3} md={2}>
                         <Image src='https://cdn.pixabay.com/photo/2015/04/23/17/41/node-js-736399_960_720.png' width={'100%'}alt='node' rounded/>
@@ -126,7 +126,7 @@ const HomeContent = () => {
             <Container style={{'display':'flex'}}>
                 <Row style={{'alignItems':'center', 'justifyContent':'left'}}>
                     <Col xs={3} md={2}>
-                        <Image src='https://cdn3.icicletech.com/media/react-logo.png' alt='react' width={'100%'} rounded/>
+                        <Image src='https://upload.wikimedia.org/wikipedia/commons/thumb/a/a7/React-icon.svg/1200px-React-icon.svg.png' alt='react' width={'100%'} rounded/>
                     </Col>
                     <Col xs={3} md={2}>
                         <Image src='https://cdn.pixabay.com/photo/2015/04/23/17/41/node-js-736399_960_720.png' width={'100%'}alt='node' rounded/>
