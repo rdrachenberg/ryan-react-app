@@ -173,7 +173,7 @@ const HomeContent = () => {
                         <Image src='https://designhooks.com/wp-content/uploads/2016/04/html5-and-css3.png' alt='HTM5-CSS3' width={'100%'} rounded/>
                     </Col>
                     <Col xs={3} md={2}>
-                        <Image src='https://3wga6448744j404mpt11pbx4-wpengine.netdna-ssl.com/wp-content/uploads/2012/10/jquery.jpg' width={'100%'} alt='jquery' rounded/>
+                        <Image src='https://www.devopsschool.com/blog/wp-content/uploads/2022/03/jquery.png' width={'100%'} alt='jquery' rounded/>
                     </Col>
                     <Col xs={3} md={2}>
                         <Image src='https://uploads.getpop.org/wp-content/uploads/2017/12/js-480x480.png' alt='javascript' width={'100%'} rounded/> 
