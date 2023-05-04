@@ -244,6 +244,8 @@ const HomeContent = () => {
                                 <li>Blockchain Wallets and Transactions <a href="https://blockchaincertificate-verify.kingsland.io/certificate/61bb0584815b0057d5c91cfc" target= "__blank">here</a></li>
                                 <li>Solidity and Smart Contracts<a href="https://blockchaincertificate-verify.kingsland.io/certificate/61bb0584815b0057d5c91cf1" target= "__blank"> here</a></li>
                             </ul>
+                            <Image src="https://app.infura.io/loginhttps://gateway.ipfs.io/ipfs/Qmecvbieu6a7kBrPqo7oSYNy41hhiiVDUUCZKEuELknvNi" alt="Ryan Drachenberg Blockchain Final Projects Certification" width={'100%'} rounded/>
+
                         </h5>
                         
                         <p>My full stack developer certificate, which can be found <a href="https://blockchaincertificate-verify.kingsland.io/certificate/5fcdf04e686adb11255ebbab" target="_blank" rel="noreferrer">here.</a></p>
