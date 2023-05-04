@@ -245,7 +245,7 @@ const HomeContent = () => {
                                 <li>Solidity and Smart Contracts<a href="https://blockchaincertificate-verify.kingsland.io/certificate/61bb0584815b0057d5c91cf1" target= "__blank"> here</a></li>
                             </ul>
                             <a href="https://blockchaincertificate-verify.kingsland.io/certificate/62fcb6b61918c47cc68be655">
-                                <Image src="/rd-blockchain-cert.jpg" alt="Ryan Drachenberg Blockchain Final Projects Certification" width={'50%'} rounded/>
+                                <Image src="/rd-blockchain-cert.jpg" alt="Ryan Drachenberg Blockchain Final Projects Certification" width={'50%'} rounded target="__blank"/>
                             </a>
 
                         </h5>
