@@ -9,7 +9,8 @@ const path = require('path');
 
 module.exports = (app) => {
     const corsOptions = {
-        origin: "https://ryan-react-app.herokuapp.com",
+        // origin: "https://ryan-react-app.herokuapp.com",
+        origin: "https://localhost:3000",
         optionsSuccessStatus: 200
     };
 

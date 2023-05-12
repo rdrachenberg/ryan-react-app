@@ -3,13 +3,19 @@ import Container from 'react-bootstrap/Container';
 import Row from 'react-bootstrap/Row';
 import Col from 'react-bootstrap/Col';
 import Image from 'react-bootstrap/Image';
-import MostLanguages from '../MostLanguages/MostLanguages'
-import HelloMessage from '../HelloMessage/HelloMessage'
+import MostLanguages from '../MostLanguages/MostLanguages';
+import HelloMessage from '../HelloMessage/HelloMessage';
+import Ticker from "../Ticker/Ticker";
 
 const HomeContent = () => {
 
     return (
         <Container id='home-content-container'>
+            <Row>
+                <Col md='12'>
+                    <Ticker />
+                </Col>
+            </Row>
             <Row>
                 <Col md='12' id='welcome-message'>
                     <HelloMessage />
@@ -55,7 +61,7 @@ const HomeContent = () => {
             <Row className='built-apps'>
             <Col md={6}>
                     <h4>
-                    <a href="http://sea-horse.herokuapp.com/" target="_Blank" rel="noopener noreferrer" className="app-links">
+                    <a href="http://sea-horse.herokuapp.com/" target="_blank" rel="noopener noreferrer" className="app-links">
                         <strong>Sea Horse</strong>
                     </a>
                     </h4>

@@ -5,7 +5,7 @@ import Container from 'react-bootstrap/Container';
 import Row from 'react-bootstrap/Row';
 import Col from 'react-bootstrap/Col';
 import HomeContent from '../HomeContent/HomeContent';
-// import { Ticker } from "../Ticker/Ticker";
+
 
 
 
@@ -31,6 +31,7 @@ const Body = () => {
                 </Container>
             </Jumbotron>
             <HomeContent />
+            
         </div>
     )
 }
