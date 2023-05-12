@@ -5,7 +5,7 @@ import Container from 'react-bootstrap/Container';
 import Row from 'react-bootstrap/Row';
 import Col from 'react-bootstrap/Col';
 import HomeContent from '../HomeContent/HomeContent';
-import { Ticker } from "../Ticker/Ticker";
+// import { Ticker } from "../Ticker/Ticker";
 
 
 
@@ -13,7 +13,7 @@ const Body = () => {
 
     return (
         <div fluid='true'>
-            <Ticker />
+            
             <Jumbotron id='jumbotron'>
                 <Container id='jumbo-container'>
                     <Row>
