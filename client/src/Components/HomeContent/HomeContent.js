@@ -46,7 +46,7 @@ const HomeContent = () => {
             {/* <!-- third paragraph --> */}
             <Row>
             <Col>
-                <p> I have recently finished my Blockchain Engineer certification through Kingsland University. Currently Im working on cypto payment rails, a web3 project. I am always looking for new opportunities. Feel free to contact me via e-mail at <a href='mailto:ryandrachenberg@gmail.com'>ryandrachenberg@gmail.com</a> or phone <a href='tel:1-407-341-1162'>407-341-1162</a>. I look forward to meeting you. 
+                <p> I have recently finished my Blockchain Engineer certification through Kingsland University. Currently Im working on crypto payment rails, a web3 project. I am always looking for new opportunities. Feel free to contact me via e-mail at <a href='mailto:ryandrachenberg@gmail.com'>ryandrachenberg@gmail.com</a> or phone <a href='tel:1-407-341-1162'>407-341-1162</a>. I look forward to meeting you. 
                 </p>
             </Col>
             </Row>
