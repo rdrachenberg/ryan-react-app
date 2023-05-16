@@ -1,6 +1,7 @@
 import { useEffect, useState } from "react";
 import Marquee from "react-fast-marquee";
 
+
 export default function Ticker() {
     const [data, setData] = useState([]);
     
@@ -25,7 +26,7 @@ export default function Ticker() {
             const response = await dataCall.json();
             setData(response);
             console.log(response);
-            console.log(data);
+            
             return response
         } catch (err) {
             console.log('You have an error: ');
@@ -36,13 +37,26 @@ export default function Ticker() {
     }
 
     useEffect(() => {
-        getMarketData().then(() => {
-            console.log(data);
-            console.log(data.length);
-        })
+        const callInterval = setInterval(() => {
+            getMarketData();
+        }, 30000);
+
+        // clean up
+        return () => {
+            clearInterval(callInterval)
+        }
+        
     // eslint-disable-next-line react-hooks/exhaustive-deps
     }, [])
-    // console.log(data)
+    
+    useEffect(() => {
+      getMarketData().then(() => {
+        console.log(data);
+      });
+
+    // eslint-disable-next-line react-hooks/exhaustive-deps
+    }, [])
+    
 
     return (
         <div>
