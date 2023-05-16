@@ -259,6 +259,7 @@ hr {
     color: whitesmoke;
     text-emphasis-color: aqua;
 }
+
 p{
     font-size: 20px;
     padding: 1%;
@@ -288,6 +289,40 @@ p{
     color: #f7feff;
     
 
+}
+
+.ticker {
+    display: flex;
+    padding: 10px;
+    background-color: black;
+    border-radius: 5px;
+    margin: 2px;
+    z-index: -1;
+}
+
+.ticker-logo-images {
+    margin: auto;
+    padding-right: 2px;
+    z-index: 0;
+    
+}
+.ticker-logo-images img{
+    max-width: 35px;
+    margin: auto;
+    z-index: 1;
+}
+
+.ticker-text p{
+    font-size: small;
+    margin-bottom: 1px;
+    margin: auto;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    z-index: 1;
+    color: aliceblue;
+    
+   
 }
 
 #wrap {
@@ -518,7 +553,7 @@ p{
         font-size: 19px;
         font-weight: bold;
     }
-
+    
     #welcome-message {
         margin: auto;
         padding-top: 20px;
