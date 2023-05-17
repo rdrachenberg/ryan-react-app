@@ -14,7 +14,8 @@ export default function Ticker() {
                 method: 'GET',
             });
             //**********************************************************************************************************************
-            // css adjustment local testing seed json file. Uncomment to make css changes to avoid rate limits on CoinGecko api call
+            // local testing (call seed json file). Uncomment to make changes & avoid rate limits on the CoinGecko api call
+            //**********************************************************************************************************************
             // const dataCall = await fetch(`/seed-ticker.json`, {
             //     headers : {
             //         "Accept": "application/json"                
@@ -72,9 +73,9 @@ export default function Ticker() {
                                     <div className='ticker-text'>
                                         <p>{tokenData.symbol}</p>
                                         {Math.sign(Number(tokenData.price_change_percentage_24h)) === -1 ? 
-                                            <p style={{color: 'red'}}>{Number(tokenData.price_change_percentage_24h).toFixed(3)}%</p>
+                                            <p className='pulseBoxTwo' style={{color: 'red'}}>{Number(tokenData.price_change_percentage_24h).toFixed(3)}%</p>
                                         : 
-                                            <p style={{color: 'green'}}>{Number(tokenData.price_change_percentage_24h).toFixed(3)}%</p>
+                                            <p className='pulseBox' style={{color: 'green'}}>{Number(tokenData.price_change_percentage_24h).toFixed(3)}%</p>
                                         }
                                     </div>
                                 </div>

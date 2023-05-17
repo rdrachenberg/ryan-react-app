@@ -246,6 +246,7 @@ const HomeContent = () => {
                         <h5>
                             <ul>
                                 <li>All certificates are logged and verified on the Ethereum Blockchain</li>
+                                <li>Full Stack Web Developer <a href="https://blockchaincertificate-verify.kingsland.io/certificate/5fcdf04e686adb11255ebbab" target= "__blank">here</a></li>
                                 <li>Blockchain Essentials <a href="https://blockchaincertificate-verify.kingsland.io/certificate/61bb0584815b0057d5c91d03" target= "__blank">here</a></li>
                                 <li>Blockchain Wallets and Transactions <a href="https://blockchaincertificate-verify.kingsland.io/certificate/61bb0584815b0057d5c91cfc" target= "__blank">here</a></li>
                                 <li>Solidity and Smart Contracts<a href="https://blockchaincertificate-verify.kingsland.io/certificate/61bb0584815b0057d5c91cf1" target= "__blank"> here</a></li>
@@ -255,8 +256,6 @@ const HomeContent = () => {
                             </a>
 
                         </h5>
-                        
-                        <p>My full stack developer certificate, which can be found <a href="https://blockchaincertificate-verify.kingsland.io/certificate/5fcdf04e686adb11255ebbab" target="_blank" rel="noreferrer">here.</a></p>
                     </div>
                     <div id="img-div-one" className="col-md-2">
                         <a href="https://blockchaincertificate-verify.kingsland.io/certificate/5fcdf04e686adb11255ebbab" target="_blank" rel="noreferrer">
@@ -279,10 +278,6 @@ const HomeContent = () => {
                         </a>
                     </div>
                 </div>
-                
-                <p>Completion of the following: 24-week program, 250 contact hours plus individual & group projects utilizing HTML, CSS, JavaScript, jQuery, Firebase, Node.js, MySQL, MongoDB, Mongoose, and React.js.</p>
-                <h5>Best Regards,</h5>
-                <h5>Ryan Drachenberg</h5>
         </Container>
     )
 }
