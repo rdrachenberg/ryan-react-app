@@ -71,7 +71,7 @@ export default function Ticker() {
                                     </div>
                                     <div className='ticker-text'>
                                         <p>{tokenData.symbol}</p>
-                                        <p>{tokenData.price_change_percentage_24h}</p>
+                                        <p>{tokenData.price_change_percentage_24h}%</p>
                                         
                                     </div>
                                 </div>
