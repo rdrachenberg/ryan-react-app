@@ -71,7 +71,7 @@ export default function Ticker() {
                                         <img  src={tokenData.image} alt={`${tokenData.id} logo from CoinGecko`}  />
                                     </div>
                                     <div className='ticker-text'>
-                                        <p>{tokenData.symbol}</p>
+                                        <p>{tokenData.symbol.toUpperCase()}</p>
                                         {Math.sign(Number(tokenData.price_change_percentage_24h)) === -1 ? 
                                             <p className='pulseBoxTwo' style={{color: 'red'}}>{Number(tokenData.price_change_percentage_24h).toFixed(3)}%</p>
                                         : 
