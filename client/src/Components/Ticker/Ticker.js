@@ -71,8 +71,11 @@ export default function Ticker() {
                                     </div>
                                     <div className='ticker-text'>
                                         <p>{tokenData.symbol}</p>
-                                        <p>{tokenData.price_change_percentage_24h}%</p>
-                                        
+                                        {Math.sign(Number(tokenData.price_change_percentage_24h)) === -1 ? 
+                                            <p style={{color: 'red'}}>{Number(tokenData.price_change_percentage_24h).toFixed(3)}%</p>
+                                        : 
+                                            <p style={{color: 'green'}}>{Number(tokenData.price_change_percentage_24h).toFixed(3)}%</p>
+                                        }
                                     </div>
                                 </div>
                             )}
