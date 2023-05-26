@@ -558,6 +558,40 @@ p{
     color: white;
 }
 
+.sharon-img {
+    height: 90px;
+    background-color: #f7feff;
+    padding: 2px;
+    display: flex;
+    margin-left: auto;
+    justify-content: flex-end;
+    align-items: flex-end;
+    border-radius: 20px;
+    
+}
+
+#sharon-img-container {
+    max-width: 500px;
+
+    width: 380px;
+    margin-bottom: 10px;
+    flex-wrap: wrap;
+    background-color: #282726;
+    border-radius: 20px;
+    padding: 10px;
+    background-color: #000000;
+    background-image: linear-gradient(90deg, rgb(140, 140, 140) 0%, rgb(0, 0, 0) 37%, rgb(47, 219, 253) 100%);
+    color: aqua;
+    border-radius: 20px; 
+    animation: glowing 4300ms infinite;
+    transition: all 0.2s ease-in-out;
+
+}
+
+#sharon-project-text {
+    color: white
+}
+
 #welcome-message {
     margin-top: 5px;
 }

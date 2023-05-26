@@ -28,6 +28,24 @@ const HomeContent = () => {
             </Col>
             <Col md='4'>
             
+                <div id='sharon-img-container'>
+                    <a href='https://www.sharonmycreations.com/' target='__blank'>
+                        <Image src={process.env.PUBLIC_URL + '/logo.png'} alt='Sharon My Creations' className="sharon-img"/>
+                        <p id='sharon-project-text'>Latest production e-commerce app</p>
+                    </a>
+                    <a href='https://github.com/rdrachenberg/sharon-my-creations' target='__blank'>
+                        <p id='sea-horse-github'><i className="fab fa-github"></i> github</p>
+                    </a>
+                </div>
+            </Col>
+            </Row>
+            <Row>
+            {/* <!-- second paragraph --> */}
+            <Col>
+                <p id='text-to-wrap'> Ever since I can remember I’ ve been fascinated by technology. This fascination has led me to pursue a career in IT and given me the drive to first become a full stack web developer, and then a blockchain engineer. Together, through code; we can acheive incredible things. I believe the future is in web development and it is thrilling to see applications come to life.</p>
+            </Col>
+            <Col md='4'>
+            
                 <div id='sea-horse-img-container'>
                     <a href='http://sea-horse.herokuapp.com/' target='__blank'>
                         <Image src={process.env.PUBLIC_URL + '/sea-horse.png'} alt='sea horse site' className="sea-horse-img"/>
@@ -40,7 +58,7 @@ const HomeContent = () => {
             </Col>
             </Row>
             <Row>
-            {/* <!-- second paragraph --> */}
+            {/* <!-- third paragraph --> */}
             <Col>
                 <p> Finance and Technology have been prevalent throughout my life. I've had the fortune to run multiple companies and freelanced IT services before really diving into computer programming. Being experienced in both fields has been extremely valuable and gives me insight that most devs don't have. I take extreme ownership in my work and take challenges with stride. I love that we actually get to solve real world problems. The best way to predict the future is to invent it.</p>
                 <blockquote><i>"An engineer is someone who can make for a Dollar<br/> what any fool could make for two".</i><cite>Alan Kay</cite></blockquote>
@@ -49,7 +67,7 @@ const HomeContent = () => {
             </Col>
                 <Col md='4'><MostLanguages /></Col>
             </Row>
-            {/* <!-- third paragraph --> */}
+            {/* <!-- fourth paragraph --> */}
             <Row>
             <Col>
                 <p> I have recently finished my Blockchain Engineer certification through Kingsland University. Currently Im working on crypto payment rails, a web3 project. I am always looking for new opportunities. Feel free to contact me via e-mail at <a href='mailto:ryandrachenberg@gmail.com'>ryandrachenberg@gmail.com</a> or phone <a href='tel:1-407-341-1162'>407-341-1162</a>. I look forward to meeting you. 
@@ -57,6 +75,50 @@ const HomeContent = () => {
             </Col>
             </Row>
             <h2>Applications Built</h2>
+            <hr />
+            <Row className='built-apps'>
+            <Col md={6}>
+                    <h4>
+                    <a href="http://sharonmycreations.com/" target="_blank" rel="noopener noreferrer" className="app-links">
+                        <strong>Sharon My Creations</strong>
+                    </a>
+                    </h4>
+                    <h5>
+                        e-commerce site that allows this artist to sell her product
+                    </h5>
+                </Col>
+                <Col></Col>
+                <Col></Col>
+            </Row>
+            <Row></Row>
+            <Row>
+                <h5> 
+                    <ul>
+                        <li>The front end is React Next.js. </li>
+                        <li>Tailwind CSS for styling</li>
+                        <li>Stripe as a backend to track sales and inventory</li>
+                        <li>Mobile friendly, responsive design</li>
+                        <li>Tech Stack - React, Node.js, Next.js, Tailwind CSS, Native Stripe Integration</li>
+                    </ul>
+                </h5>
+            </Row>
+            <Container style={{'display':'flex'}}>
+                <Row style={{'alignItems':'center', 'justifyContent':'left'}}>
+                    <Col xs={3} md={2}>
+                        <Image src='https://upload.wikimedia.org/wikipedia/commons/thumb/a/a7/React-icon.svg/1200px-React-icon.svg.png' alt='react' width={'100%'} rounded/>
+                    </Col>
+                    <Col xs={3} md={2}>
+                        <Image src='https://cdn.pixabay.com/photo/2015/04/23/17/41/node-js-736399_960_720.png' width={'100%'}alt='node' rounded/>
+                    </Col>
+                    <Col xs={3} md={2}>
+                        <Image src='https://cdn.changelog.com/uploads/icons/topics/zN5/icon_large.png?v=63803001934' width={'100%'}alt='node' rounded/>
+                    </Col>
+                    <Col xs={3} md={2}>
+                        <Image src='https://images.ctfassets.net/fzn2n1nzq965/3AGidihOJl4nH9D1vDjM84/9540155d584be52fc54c443b6efa4ae6/homepage.png?q=80' width={'100%'}alt='node' rounded/>
+                    </Col>
+                    
+                </Row>
+            </Container>
             <hr />
             <Row className='built-apps'>
             <Col md={6}>
